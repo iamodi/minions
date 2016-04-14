@@ -1,0 +1,144 @@
+/*
+
+Title: Stylesheet Template
+
+Author: Modi Chen
+
+*/
+
+body {
+	width: 100%;
+	margin: 0px;
+}
+
+/* Layout
+------------------------------------------*/
+.wrapper {
+	width: 88%;
+	min-height: 600px;
+	margin: 0 auto;
+
+}
+
+.header {
+	width: 100%;
+	min-height: 200px;
+	background: yellow;
+}
+
+.main-image-nav {
+	float: left;
+	width: 80%;
+	height: 200px;
+}
+
+.main-image {
+	width: 100%;
+	height: 180px;	
+	background-image: url("http://static.tumblr.com/808dc515a9d23f6868f1c8fca922863c/fwfbhq5/rVnmqha5h/tumblr_static_minions-film.jpg");
+	background-size: contain;
+}
+
+.nav {
+	width: 100%;
+	height: 20px;	
+	background: black;
+}
+
+.ad-right-top {
+	width: 20%;
+	height: 200px;	
+	background: #025F6B;
+	float: left;
+	background-repeat: no-repeat;
+	background-image: url("http://www.nakasan.com.br/Eshop.Admin/Imagens/nakasan/banner-malvado-2.jpg");
+	background-size: cover;	
+}
+
+.container{
+	float: left;
+	width: 100%;
+}
+
+.blog {
+	margin-top: 10px;
+	float: left;
+	width: 80%;
+	
+}
+
+img {
+	padding-right: 10px;
+}
+
+p {
+	font-size: 17px;
+	font-family: 'Istok Web', sans-serif;
+	padding-right: 20px;
+	margin-bottom: -40px;
+}
+
+h2 {
+	font-size: 35px;
+	font-family: 'Chewy', cursive;
+	color: #367098;
+	margin-bottom: -20px;
+}
+
+.post1 {
+	height: 257px;
+	padding-left: 1em
+	
+}
+
+
+.side-bar {
+	width: 20%;
+	height: 800px;
+	float: left;
+	background-image: url("img/Despicable-me-2-many-minions-pp33148.jpg");
+	background-position: center;
+}
+
+.ads{}
+
+/* Media query
+------------------------------------------*/
+
+@media screen and (max-width: 800px) {
+	.wrapper {
+		width: 100%;
+		background: #F1F2F2;
+	}
+
+	.main-image {
+		width: 100%;
+		height: 180px;	
+		background-image: url("http://static.tumblr.com/808dc515a9d23f6868f1c8fca922863c/fwfbhq5/rVnmqha5h/tumblr_static_minions-film.jpg");
+		background-size: cover;
+	}
+
+	.main-image-nav {
+	width: 100%;
+}
+
+	.ad-right-top {
+		display: none;	
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
